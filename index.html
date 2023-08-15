@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="roof">
+        <h1>RIXOS</h1>
+      </div>
+    </nav>
+    <div class="container-main">
+        <div class="sidebar">
+          <div id="five" class="num"><p>5</p></div>
+          <div id="four" class="num"><p>4</p></div>
+          <div id="three" class="num"><p>3</p></div>
+          <div id="two" class="num"><p>2</p></div>
+          <div id="one" class="num"><p>1</p></div>
+        </div>
+        <div class="main_floors">
+          <div class="floors">
+            <div id="elevator1" class="elevator">
+              <img src="./images/elevator.svg" alt="elevator" />
+              <div class="elevator__buttons">
+                <button id="btnUp" onclick="soundClick1()">
+                  <img src="./images/btn_up.svg" alt="btn" />
+                </button>
+                <button id="btnDown" onclick="soundClick1()">
+                  <img src="./images/btn_down.svg" alt="btn" />
+                </button>
+                <button onclick="soundClick()">Music</button>
+                <button id="go-btn" onclick="soundClick1()">Floor</button>
+              </div>
+            </div>
+          </div>
+          <div class="floors"></div>
+          <div class="floors"></div>
+          <div class="floors"></div>
+          <div class="floors"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
